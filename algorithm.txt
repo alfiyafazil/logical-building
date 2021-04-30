@@ -1,0 +1,43 @@
+1. Java program to multiply given number by using bitwise operators.
+
+  a) Let a,b be two integrers
+  b) While b greater than 0,
+      i.   check if b is odd using AND operator
+      ii.  if odd, add a to variable 'result'
+      iii. multiply a by 2 using left shift operator
+      iv.  divide b by 2 using right shift operator
+  c) Print 'result'
+  
+2. Java program to check if a given bit position is set to one or not.
+  
+  a) Input an integer and position from user
+  b) Calculate the binary right shift of the integer to get to the given position
+  c) If the bit is equal to one, print 'set to one' else 'set to zero'
+
+3. Java program to count hte numbert of bits set to 1.
+
+  a) Input an integer fron the user
+  b) Loop through all the bits in the integer using right shift operator
+  c) Check if the bit is equal to 1 using AND operator
+  d) Increment 'count' by 1 if the bit is 1
+  e) Print 'count' after exiting from the loop
+
+4. Java program to illustrate the use of various bitwise operators
+
+  a) Let a,b as two integers
+  b) Calculate a&b, store it in 'and' and print 'and'
+  c) Calculate a|b, store it in 'or' and print 'or'
+  d) Calculate a^b, store it in 'xor' and print 'xor'
+  e) Calculate ~a,~b  and print the values
+  f) Calculate a<<b, store it in 'left' and print 'left'
+  g) Calculate a>>b, store it in 'right' and print 'right'
+  h) Calculate a>>>b, store it in 'zero' and print 'zero'
+  
+5. Java program to swap the contents of 2 numbers using bitwise XOR operation
+
+  a) Let a,b as two integers
+  b) Calculate a^b and store in a
+  c) Calculate a^b and store in b
+  d) Again, calculate a^b and store in a
+  e) Print a and b
+  
